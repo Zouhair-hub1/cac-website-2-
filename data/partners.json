@@ -1,0 +1,9 @@
+[
+  { "id": "pa1", "name": "École Centrale Casablanca", "tier": "Institutional", "url": "https://www.centrale-casablanca.ma" },
+  { "id": "pa2", "name": "Airbus", "tier": "Industry", "url": "https://www.airbus.com" },
+  { "id": "pa3", "name": "Boeing", "tier": "Industry", "url": "https://www.boeing.com" },
+  { "id": "pa4", "name": "Safran", "tier": "Industry", "url": "https://www.safran-group.com" },
+  { "id": "pa5", "name": "Royal Air Maroc", "tier": "Industry", "url": "https://www.royalairmaroc.com" },
+  { "id": "pa6", "name": "ONDA", "tier": "Institutional", "url": "https://www.onda.ma" },
+  { "id": "pa7", "name": "Thales", "tier": "Industry", "url": "https://www.thalesgroup.com" }
+]

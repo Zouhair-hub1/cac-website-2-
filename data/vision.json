@@ -1,0 +1,44 @@
+[
+  {
+    "id": "v01",
+    "title": "Space x Aero Day",
+    "description": "Beyond the horizon — a full day uniting aviation and space exploration, with talks, demos and challenges.",
+    "image": "/images/space-aero-day.jpg",
+    "alt": "Space x Aero Day poster"
+  },
+  {
+    "id": "v02",
+    "title": "Interactive Games",
+    "description": "Aerospace quiz competitions, drone racing gates and flight-simulator challenges — learning that feels like play.",
+    "image": "/images/interactive-games.jpg",
+    "alt": "Members competing in an aerospace quiz and flight simulator challenge"
+  },
+  {
+    "id": "v03",
+    "title": "Hands-on Workshops",
+    "description": "CAD, aerodynamics, embedded electronics and drone building — practical skills, taught member to member.",
+    "image": "/images/workshops.jpg",
+    "alt": "Members building drones and working on CAD models in the lab"
+  },
+  {
+    "id": "v04",
+    "title": "Collaboration with Forum Club",
+    "description": "Bringing aerospace companies to campus through career forums — meet the industry before you graduate.",
+    "image": "/images/forum-club.jpg",
+    "alt": "Aerospace careers forum with industry stands"
+  },
+  {
+    "id": "v05",
+    "title": "Aerospace Movie Nights",
+    "description": "Documentaries and classics of flight and space, popcorn included — the relaxed side of the club.",
+    "image": "/images/movie-nights.jpg",
+    "alt": "Members watching an aerospace documentary together"
+  },
+  {
+    "id": "v06",
+    "title": "Observation Nights",
+    "description": "The club telescope comes out and the campus terrace becomes an observatory — planets, star maps and quiet wonder.",
+    "image": "/images/observation-nights.jpg",
+    "alt": "Members observing the night sky with the club telescope"
+  }
+]

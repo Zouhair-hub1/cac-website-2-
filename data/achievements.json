@@ -1,0 +1,18 @@
+[
+  {
+    "id": "a01",
+    "title": "Inspiring Conference with Ismail El Omari",
+    "period": "2025–2026",
+    "description": "Space architect and analog astronaut Ismail El Omari joined us on campus for a conference on designing habitats for life beyond Earth — and what analog missions teach future engineers.",
+    "image": "/images/conference-ismail.jpg",
+    "alt": "Students gathered with Ismail El Omari after the conference"
+  },
+  {
+    "id": "a02",
+    "title": "Space Day 2025",
+    "period": "2025–2026",
+    "description": "Our flagship event: a full day dedicated to AI, Earth observation and space engineering, gathering students, researchers and industry guests at École Centrale Casablanca.",
+    "image": "/images/space-day-2025.jpg",
+    "alt": "Speakers and students on stage at Space Day 2025"
+  }
+]

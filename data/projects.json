@@ -1,0 +1,80 @@
+[
+  {
+    "id": "p01",
+    "slug": "rc-aircraft",
+    "title": "RC Aircraft",
+    "department": "Aeronautics",
+    "status": "In progress",
+    "progress": 65,
+    "summary": "A fully club-built fixed-wing RC aircraft, from airfoil selection to first flight.",
+    "description": "Our flagship aeronautics project: a fixed-wing radio-controlled aircraft designed and built entirely by members. The team handles the complete cycle — airfoil selection, CAD modelling, structural sizing, laser-cut ribs, motor and battery sizing, then ground and flight testing. The project doubles as a training platform for new members joining the department.",
+    "technologies": ["SolidWorks", "XFLR5", "Laser cutting", "Balsa & composite build", "Brushless propulsion"],
+    "gallery": [],
+    "year": "2025–2026"
+  },
+  {
+    "id": "p02",
+    "slug": "drone-lab",
+    "title": "Drone Lab",
+    "department": "Aeronautics",
+    "status": "In progress",
+    "progress": 45,
+    "summary": "Quadcopter platform for autonomous flight experiments and aerial imaging.",
+    "description": "A modular quadcopter platform used to explore flight controllers, PID tuning and autonomous missions. The long-term goal is an aerial-imaging drone capable of automated mapping flights over campus.",
+    "technologies": ["Pixhawk / ArduPilot", "Python", "3D printing", "Computer vision"],
+    "gallery": [],
+    "year": "2025–2026"
+  },
+  {
+    "id": "p03",
+    "slug": "model-rocket",
+    "title": "Model Rocket Program",
+    "department": "Aerospace",
+    "status": "In progress",
+    "progress": 40,
+    "summary": "Solid-motor model rockets with onboard altimetry and recovery systems.",
+    "description": "The Aerospace Department's stepping stone to bigger launches: a series of model rockets with parachute recovery and onboard flight computers logging altitude and acceleration. Each iteration flies higher and carries more instrumentation.",
+    "technologies": ["OpenRocket", "Arduino flight computer", "3D printing", "Parachute recovery"],
+    "gallery": [],
+    "year": "2025–2026"
+  },
+  {
+    "id": "p04",
+    "slug": "cubesat-concept",
+    "title": "CubeSat Concept Study",
+    "department": "Aerospace",
+    "status": "Planned",
+    "progress": 15,
+    "summary": "A 1U CubeSat feasibility study focused on Earth observation for Morocco.",
+    "description": "A student-led feasibility study for a 1U CubeSat mission: mission definition, subsystem budgets (power, link, mass), and an Earth-observation payload concept relevant to Morocco. The study prepares the club for national and international CanSat/CubeSat competitions.",
+    "technologies": ["Systems engineering", "MATLAB", "Link & power budgets", "Earth observation"],
+    "gallery": [],
+    "year": "2026"
+  },
+  {
+    "id": "p05",
+    "slug": "flight-simulation",
+    "title": "Flight Simulation Corner",
+    "department": "Aeronautics",
+    "status": "Completed",
+    "progress": 100,
+    "summary": "A fixed simulator setup where members learn real flight procedures.",
+    "description": "A permanent flight-simulation setup with yoke, throttle quadrant and rudder pedals. Used for initiation sessions during integration week and for regular 'virtual airline' evenings where members fly real procedures on real routes.",
+    "technologies": ["Microsoft Flight Simulator", "X-Plane", "Home cockpit hardware"],
+    "gallery": [],
+    "year": "2025"
+  },
+  {
+    "id": "p06",
+    "slug": "workshops",
+    "title": "Technical Workshop Series",
+    "department": "Club",
+    "status": "In progress",
+    "progress": 70,
+    "summary": "Recurring hands-on workshops: CAD, aerodynamics, electronics, astronomy.",
+    "description": "A recurring series of hands-on workshops open to all students: CAD for aerospace, introduction to aerodynamics, soldering and embedded electronics, and telescope operation ahead of astronomy nights.",
+    "technologies": ["SolidWorks", "Arduino", "Telescope operation"],
+    "gallery": [],
+    "year": "2025–2026"
+  }
+]

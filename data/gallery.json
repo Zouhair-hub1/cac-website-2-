@@ -1,0 +1,58 @@
+[
+  {
+    "id": "g01",
+    "src": "/images/space-day-2025.jpg",
+    "alt": "Space Day 2025 at École Centrale Casablanca",
+    "category": "Conferences",
+    "ratio": "landscape"
+  },
+  {
+    "id": "g02",
+    "src": "/images/conference-ismail.jpg",
+    "alt": "Conference with Ismail El Omari",
+    "category": "Conferences",
+    "ratio": "landscape"
+  },
+  {
+    "id": "g03",
+    "src": "/images/workshops.jpg",
+    "alt": "Drone-building workshop in the lab",
+    "category": "Workshops",
+    "ratio": "landscape"
+  },
+  {
+    "id": "g04",
+    "src": "/images/interactive-games.jpg",
+    "alt": "Flight simulator challenge and aerospace quiz",
+    "category": "Workshops",
+    "ratio": "landscape"
+  },
+  {
+    "id": "g05",
+    "src": "/images/forum-club.jpg",
+    "alt": "Aerospace careers forum with industry partners",
+    "category": "Visits",
+    "ratio": "square"
+  },
+  {
+    "id": "g06",
+    "src": "/images/observation-nights.jpg",
+    "alt": "Observation night with the club telescope",
+    "category": "Workshops",
+    "ratio": "landscape"
+  },
+  {
+    "id": "g07",
+    "src": "/images/movie-nights.jpg",
+    "alt": "Aerospace movie night",
+    "category": "Workshops",
+    "ratio": "landscape"
+  },
+  {
+    "id": "g08",
+    "src": "/images/space-aero-day.jpg",
+    "alt": "Space x Aero Day",
+    "category": "Competitions",
+    "ratio": "landscape"
+  }
+]

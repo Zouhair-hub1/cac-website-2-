@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c01",
+    "role": "President",
+    "name": "Lina Assabane",
+    "email": "lina.assabane@centrale-casablanca.ma",
+    "phone": "06 59 12 75 07"
+  },
+  {
+    "id": "c02",
+    "role": "Vice-President",
+    "name": "Faisal Fennane",
+    "email": "faisal.fennane@centrale-casablanca.ma",
+    "phone": "06 52 15 50 03"
+  }
+]

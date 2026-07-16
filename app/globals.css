@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Theme variables — dark is the default aerospace look, light is the toggle.
+--------------------------------------------------------------------------- */
+:root {
+  --bg: #f6f8fa;
+  --bg-elevated: #ffffff;
+  --fg: #08263d;
+  --muted: #4b6478;
+  --line: rgba(8, 38, 61, 0.1);
+  --glass: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(8, 38, 61, 0.08);
+}
+
+.dark {
+  --bg: #04121e;
+  --bg-elevated: #08263d;
+  --fg: #eaf1f7;
+  --muted: #9fbfd9;
+  --line: rgba(234, 241, 247, 0.08);
+  --glass: rgba(8, 38, 61, 0.55);
+  --glass-border: rgba(234, 241, 247, 0.1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply antialiased;
+    background-color: var(--bg);
+    color: var(--fg);
+  }
+  ::selection {
+    background: rgba(46, 143, 221, 0.35);
+  }
+}
+
+@layer components {
+  /* Glassmorphism card */
+  .glass {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .text-muted {
+    color: var(--muted);
+  }
+
+  .hairline {
+    border-color: var(--line);
+  }
+
+  /* Section rhythm */
+  .section {
+    @apply py-20 md:py-28;
+  }
+  .container-site {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+
+  /* Eyebrow label above section titles */
+  .eyebrow {
+    @apply mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-accent-400;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply inline-block h-px w-6 bg-accent-400;
+  }
+
+  .h-display {
+    @apply font-display text-3xl font-semibold leading-tight tracking-tight sm:text-4xl md:text-5xl;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400;
+  }
+  .btn-primary {
+    @apply btn bg-accent-400 text-white hover:bg-accent-500 hover:shadow-glow;
+  }
+  .btn-ghost {
+    @apply btn glass hover:border-accent-400/50;
+    color: var(--fg);
+  }
+
+  .input {
+    @apply w-full rounded-xl border bg-transparent px-4 py-3 text-sm outline-none transition-colors focus:border-accent-400;
+    border-color: var(--line);
+    color: var(--fg);
+  }
+  .input::placeholder {
+    color: var(--muted);
+    opacity: 0.7;
+  }
+}
+
+/* Custom scrollbar (WebKit) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(46, 143, 221, 0.35);
+  border-radius: 8px;
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

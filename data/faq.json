@@ -1,0 +1,7 @@
+[
+  { "id": "f01", "question": "Who can join Club Aero Centrale Casablanca (CACC)?", "answer": "Any student of École Centrale Casablanca, from any year and any background. Passion matters more than prior experience — we train new members through workshops." },
+  { "id": "f02", "question": "Do I need engineering experience in aeronautics or space?", "answer": "No. Our workshop series covers the fundamentals: CAD, aerodynamics, electronics and telescope operation. You learn by building alongside experienced members." },
+  { "id": "f03", "question": "How much time does membership require?", "answer": "It scales with your involvement. Attending events is free-form; project teams typically meet a few hours per week; the bureau is a bigger commitment." },
+  { "id": "f04", "question": "Which department should I choose?", "answer": "Aeronautics if you want to build things that fly in the atmosphere — RC aircraft, drones, simulation. Aerospace if rockets, satellites and astronomy call you. You can attend both departments' workshops before deciding." },
+  { "id": "f05", "question": "When do applications open?", "answer": "Main recruitment happens at the start of each academic year during integration week, but the Join Us form stays open — motivated students are welcome year-round." }
+]

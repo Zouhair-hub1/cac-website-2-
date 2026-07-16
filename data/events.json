@@ -1,0 +1,71 @@
+[
+  {
+    "id": "e01",
+    "title": "Space Day 2025",
+    "date": "2025-04-26",
+    "category": "Space Day",
+    "location": "École Centrale Casablanca",
+    "description": "Our flagship event: a full day dedicated to AI, Earth observation and space engineering, with guest speakers, project showcases and hands-on demos.",
+    "photos": [],
+    "featured": true
+  },
+  {
+    "id": "e02",
+    "title": "Conference — Space Architecture & Analog Astronautics",
+    "date": "2025-11-20",
+    "category": "Conference",
+    "location": "Amphitheater, École Centrale Casablanca",
+    "description": "A conference with Ismail El Omari, space architect and analog astronaut, on designing habitats for life beyond Earth and what analog missions teach us.",
+    "photos": [],
+    "featured": true
+  },
+  {
+    "id": "e03",
+    "title": "Astronomy Night",
+    "date": "2026-09-18",
+    "category": "Astronomy",
+    "location": "ECC Campus rooftop",
+    "description": "An open-sky observation evening with the club telescope — planets, deep-sky objects and an introduction to celestial navigation.",
+    "photos": [],
+    "registrationUrl": "#join"
+  },
+  {
+    "id": "e04",
+    "title": "Aero Day 2026",
+    "date": "2026-10-24",
+    "category": "Aero Day",
+    "location": "École Centrale Casablanca",
+    "description": "A full day celebrating aeronautics: RC flight demos, flight-simulation challenges, industry talks and department project showcases.",
+    "photos": [],
+    "registrationUrl": "#join",
+    "featured": true
+  },
+  {
+    "id": "e05",
+    "title": "Company Visit — Safran Casablanca",
+    "date": "2026-11-12",
+    "category": "Visit",
+    "location": "Safran, Casablanca",
+    "description": "A guided visit of Safran's facilities in Casablanca to see aerospace manufacturing and MRO operations up close.",
+    "photos": []
+  },
+  {
+    "id": "e06",
+    "title": "Workshop — Intro to Aerodynamics & CAD",
+    "date": "2026-10-01",
+    "category": "Workshop",
+    "location": "Fab Lab, ECC",
+    "description": "A hands-on session for new members: lift, drag and stability fundamentals, then your first aircraft part in SolidWorks.",
+    "photos": [],
+    "registrationUrl": "#join"
+  },
+  {
+    "id": "e07",
+    "title": "Marrakech Air Show Challenge",
+    "date": "2026-11-28",
+    "category": "Competition",
+    "location": "Marrakech",
+    "description": "The club competes in a national aerospace challenge on the sidelines of the Marrakech Air Show.",
+    "photos": []
+  }
+]
