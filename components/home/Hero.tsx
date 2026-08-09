@@ -5,29 +5,41 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, ChevronDown, Plane } from "lucide-react";
 import { useRef } from "react";
 import SkyLayer from "@/components/effects/SkyLayer";
+import StarField from "@/components/effects/StarField";
+import { useTheme } from "@/components/layout/ThemeProvider";
 import { SITE } from "@/lib/site";
 
 /**
- * Home hero — daytime aviation.
- * Azure sky gradient, drifting clouds, an aircraft crossing with its contrail,
- * and a runway-inspired horizon band at the bottom.
+ * Home hero — adapts to the current theme:
+ *  - Light mode : azure daytime sky with drifting clouds & contrail
+ *  - Dark mode  : deep navy night sky with twinkling stars
  */
 export default function Hero() {
   const ref = useRef<HTMLElement>(null);
+  const { theme } = useTheme();
+  const isNight = theme === "dark";
+
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const yText = useTransform(scrollYProgress, [0, 1], [0, 120]);
   const yPlane = useTransform(scrollYProgress, [0, 1], [0, -160]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
-    <section ref={ref} className="relative flex min-h-[100svh] items-center overflow-hidden bg-hero-gradient text-white">
-      <SkyLayer tone="day" />
+    <section
+      ref={ref}
+      className={`relative flex min-h-[100svh] items-center overflow-hidden text-white transition-colors duration-700 ${
+        isNight ? "bg-night-gradient" : "bg-hero-gradient"
+      }`}
+    >
+      {isNight ? <StarField count={90} /> : <SkyLayer tone="day" />}
 
       {/* Aircraft climbing across the sky, pulled by scroll */}
       <motion.div
         aria-hidden
         style={{ y: yPlane }}
-        className="absolute right-[8%] top-[16%] hidden -rotate-[18deg] text-white/90 drop-shadow-lg md:block"
+        className={`absolute right-[8%] top-[16%] hidden -rotate-[18deg] drop-shadow-lg md:block transition-colors duration-700 ${
+          isNight ? "text-white/50" : "text-white/90"
+        }`}
       >
         <Plane size={52} fill="currentColor" strokeWidth={0} />
       </motion.div>
@@ -36,10 +48,15 @@ export default function Hero() {
       <div aria-hidden className="absolute inset-x-0 bottom-0">
         <div className="h-24 bg-gradient-to-t from-navy-800/90 to-transparent" />
         <div className="absolute bottom-0 h-10 w-full bg-navy-900" />
-        {/* runway centerline */}
+        {/* runway centerline — dimmer at night */}
         <div className="absolute bottom-[18px] left-1/2 flex -translate-x-1/2 gap-6">
           {Array.from({ length: 9 }, (_, i) => (
-            <span key={i} className="h-1 w-10 rounded-full bg-white/60" />
+            <span
+              key={i}
+              className={`h-1 w-10 rounded-full transition-colors duration-700 ${
+                isNight ? "bg-white/25" : "bg-white/60"
+              }`}
+            />
           ))}
         </div>
       </div>

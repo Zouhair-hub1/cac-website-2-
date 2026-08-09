@@ -82,7 +82,7 @@ export default function Navbar() {
             aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
             className="glass grid h-10 w-10 place-items-center rounded-full transition-colors hover:border-accent-400/50"
           >
-            {theme === "dark" ? <Sun size={17} /> : <Moon size={17} />}
+            {theme === "dark" ? <Moon size={17} /> : <Sun size={17} />}
           </button>
           <Link href="/join" className="btn-primary hidden !px-5 !py-2.5 sm:inline-flex">
             Join the Club
