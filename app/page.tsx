@@ -63,7 +63,7 @@ export default function HomePage() {
               icon: Orbit,
               title: "Aerospace",
               href: "/departments/aerospace",
-              text: "Rockets, CubeSat concepts, orbital mechanics — and astronomy nights with the club telescope.",
+              text: "Explore astronomy and space through stargazing nights, documentaries, interactive workshops and inspiring conferences.",
             },
           ].map((d, i) => (
             <Reveal key={d.title} delay={i * 0.12}>

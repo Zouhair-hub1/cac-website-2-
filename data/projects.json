@@ -178,14 +178,74 @@
   },
   {
     "id": "p06",
-    "slug": "workshops",
-    "title": "Technical Workshop Series",
-    "department": "Club",
+    "slug": "aeronautics-workshop",
+    "title": "Aeronautics Workshop",
+    "department": "Aeronautics",
     "status": "In progress",
-    "progress": 70,
-    "summary": "Recurring hands-on workshops: CAD, aerodynamics, electronics, astronomy.",
-    "description": "A recurring series of hands-on workshops open to all students: CAD for aerospace, introduction to aerodynamics, soldering and embedded electronics, and telescope operation ahead of astronomy nights.",
-    "technologies": ["SolidWorks", "Arduino", "Telescope operation"],
+    "progress": 100,
+    "summary": "Hands-on workshops introducing fundamental aeronautical concepts.",
+    "description": "Hands-on workshops introducing fundamental aeronautical concepts to all members.",
+    "technologies": ["CAD", "Aerodynamics", "Paper Aircraft"],
+    "details": {
+      "sections": [
+        {
+          "heading": "Topics",
+          "items": [
+            "Principles of Flight",
+            "Aircraft Components",
+            "Aerodynamics Basics",
+            "Paper Aircraft Design",
+            "Introduction to CAD (optional)"
+          ]
+        }
+      ]
+    },
+    "gallery": [],
+    "year": "2025–2026"
+  },
+  {
+    "id": "p07",
+    "slug": "stargazing-night",
+    "title": "Stargazing Night",
+    "department": "Aerospace",
+    "status": "In progress",
+    "progress": 100,
+    "summary": "Join the club for unforgettable nights under the stars using Centrale Aero's telescope.",
+    "description": "Join the club for unforgettable nights under the stars using Centrale Aero's telescope.",
+    "technologies": ["Club telescope", "Sky map apps", "Laser pointer"],
+    "details": {
+      "sections": [
+        {
+          "heading": "What can we observe?",
+          "items": [
+            "🌕 The Moon",
+            "🪐 Saturn",
+            "🔭 Jupiter",
+            "⭐ Star clusters",
+            "🌌 Nebulae (depending on the season)",
+            "☄️ Meteor showers"
+          ]
+        },
+        {
+          "heading": "Equipment",
+          "items": [
+            "Club telescope",
+            "Sky map apps",
+            "Laser pointer",
+            "Binoculars (optional)"
+          ]
+        },
+        {
+          "heading": "Learn about",
+          "items": [
+            "Constellations",
+            "Planetary observation",
+            "Deep-sky objects",
+            "Night sky navigation"
+          ]
+        }
+      ]
+    },
     "gallery": [],
     "year": "2025–2026"
   }

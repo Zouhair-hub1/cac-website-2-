@@ -56,7 +56,7 @@ export default function DepartmentPage({ params }: Props) {
       {/* Projects */}
       <section className="section border-y hairline bg-section-gradient">
         <div className="container-site">
-          <SectionHeader eyebrow="Activities" title="Activities of the Aerospace Department" />
+          <SectionHeader eyebrow="Activities" title={`Activities of the ${dept.name}`} />
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {projects.map((p, i) => (
               <ProjectCard key={p.id} project={p} index={i} />
