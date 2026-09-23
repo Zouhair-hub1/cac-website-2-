@@ -13,11 +13,11 @@ export const metadata: Metadata = {
 const GROUPS: { team: Member["team"]; title: string; lead: string }[] = [
   { team: "Executive", title: "Executive Team", lead: "The flight deck — steering the club's strategy, coordination and finances." },
   { team: "Events", title: "Events Team", lead: "The crew behind Space Day, Aero Day, conferences and every gathering in between." },
-  { team: "Sponsoring", title: "Sponsoring Team", lead: "Building the partnerships that fund our projects and open industry doors." },
-  { team: "Communication", title: "Communication Team", lead: "Telling the club's story across every channel." },
-  { team: "Design", title: "Design Team", lead: "The visual identity of everything we ship, from posters to this website." },
+  { team: "Sponsoring", title: "Sponsorship Team", lead: "Building the partnerships that fund our projects and open industry doors." },
+  { team: "Communication", title: "Design & Communications Team", lead: "Telling the club's story and shaping its visual identity across every channel." },
   { team: "Aeronautics", title: "Aeronautics Department", lead: "Aircraft, drones and simulation — led by the department head." },
   { team: "Aerospace", title: "Aerospace Department", lead: "Rockets, satellites and astronomy — led by the department head." },
+  { team: "IT", title: "IT Department", lead: "Building and maintaining the club's digital infrastructure and website." },
 ];
 
 export default function BoardPage() {

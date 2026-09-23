@@ -9,9 +9,9 @@ export interface Member {
     | "Events"
     | "Sponsoring"
     | "Communication"
-    | "Design"
     | "Aeronautics"
-    | "Aerospace";
+    | "Aerospace"
+    | "IT";
   photo?: string; // path under /public or remote URL
   linkedin?: string;
   isHead?: boolean;
