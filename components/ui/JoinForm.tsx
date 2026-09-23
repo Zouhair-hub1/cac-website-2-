@@ -19,7 +19,7 @@ export default function JoinForm() {
   const validate = () => {
     const errs: Record<string, string> = {};
     if (!form.name.trim()) errs.name = "Your name is required.";
-    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(form.email)) errs.email = "Enter a valid email address.";
+    if (!/^[^@\s]+@centrale-casablanca\.ma$/.test(form.email)) errs.email = "Please use your Centrale Casablanca email (prénom.nom@centrale-casablanca.ma).";
     if (!form.promotion) errs.promotion = "Select your promotion.";
     if (!form.department) errs.department = "Choose a department.";
     if (form.motivation.trim().length < 30) errs.motivation = "Tell us a bit more — at least a few sentences.";
@@ -83,7 +83,7 @@ export default function JoinForm() {
       {field("Full name", "name",
         <input id="name" className="input" placeholder="Amina El Fassi" value={form.name} onChange={set("name")} />)}
       {field("Email", "email",
-        <input id="email" type="email" className="input" placeholder="you@centrale-casablanca.ma" value={form.email} onChange={set("email")} />)}
+        <input id="email" type="email" className="input" placeholder="prenom.nom@centrale-casablanca.ma" value={form.email} onChange={set("email")} />)}
       <div className="grid gap-5 sm:grid-cols-2">
         {field("Promotion", "promotion",
           <select id="promotion" className="input" value={form.promotion} onChange={set("promotion")}>
