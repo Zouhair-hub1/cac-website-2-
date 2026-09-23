@@ -3,8 +3,8 @@
  * Avoids hardcoding the club name/links across components.
  */
 export const SITE = {
-  name: "Club Aero Centrale Casablanca",
-  abbr: "CACC",
+  name: "Centrale Aero Club",
+  abbr: "CAC",
   get full() {
     return `${this.name} (${this.abbr})`;
   },

@@ -8,7 +8,7 @@ import { formatDate } from "@/lib/format";
 
 export const metadata: Metadata = {
   title: "News",
-  description: "Announcements, recaps and stories from Club Aero Centrale Casablanca (CACC).",
+  description: "Announcements, recaps and stories from Centrale Aero Club (CAC).",
 };
 
 export default function NewsPage() {

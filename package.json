@@ -2,7 +2,7 @@
   "name": "cac-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Official website of Club Aero Centrale Casablanca (CACC) — École Centrale Casablanca",
+  "description": "Official website of Centrale Aero Club (CAC) — École Centrale Casablanca",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   description:
     "The aeronautical engineering club of École Centrale Casablanca. We design aircraft, build drones, train on flight procedures — and keep one eye on space.",
   keywords: [
-    "Club Aero Centrale Casablanca",
-    "CACC",
+    "Centrale Aero Club",
+    "CAC",
     "École Centrale Casablanca",
     "aviation",
     "aeronautics",

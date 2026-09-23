@@ -1,68 +1,180 @@
 [
   {
     "id": "p01",
-    "slug": "rc-aircraft",
-    "title": "RC Aircraft",
+    "slug": "movie-night",
+    "title": "Movie Night",
     "department": "Aeronautics",
     "status": "In progress",
-    "progress": 65,
-    "summary": "A fully club-built fixed-wing RC aircraft, from airfoil selection to first flight.",
-    "description": "Our flagship aeronautics project: a fixed-wing radio-controlled aircraft designed and built entirely by members. The team handles the complete cycle — airfoil selection, CAD modelling, structural sizing, laser-cut ribs, motor and battery sizing, then ground and flight testing. The project doubles as a training platform for new members joining the department.",
-    "technologies": ["SolidWorks", "XFLR5", "Laser cutting", "Balsa & composite build", "Brushless propulsion"],
+    "progress": 100,
+    "summary": "Join us for an evening dedicated to aviation through inspiring movies and documentaries, followed by an open discussion with club members.",
+    "description": "An evening dedicated to aviation through inspiring movies and documentaries, followed by an open discussion with club members.",
+    "technologies": ["Aviation films", "Documentaries", "Group discussion"],
+    "details": {
+      "sections": [
+        {
+          "heading": "Recommended Movies",
+          "items": [
+            "✈ Sully (2016) — The true story of Captain Chesley Sullenberger and the Miracle on the Hudson.",
+            "✈ One Six Right (2005) — A documentary celebrating general aviation and the passion of flying.",
+            "✈ Living in the Age of Airplanes (2015) — How aviation transformed the modern world."
+          ]
+        },
+        {
+          "heading": "Discussion Topics",
+          "items": [
+            "Decision making in aviation",
+            "Aircraft safety",
+            "Human factors",
+            "Evolution of commercial aviation"
+          ]
+        }
+      ]
+    },
     "gallery": [],
     "year": "2025–2026"
   },
   {
     "id": "p02",
-    "slug": "drone-lab",
-    "title": "Drone Lab",
+    "slug": "aviation-quiz-night",
+    "title": "Aviation Quiz Night",
     "department": "Aeronautics",
     "status": "In progress",
-    "progress": 45,
-    "summary": "Quadcopter platform for autonomous flight experiments and aerial imaging.",
-    "description": "A modular quadcopter platform used to explore flight controllers, PID tuning and autonomous missions. The long-term goal is an aerial-imaging drone capable of automated mapping flights over campus.",
-    "technologies": ["Pixhawk / ArduPilot", "Python", "3D printing", "Computer vision"],
+    "progress": 100,
+    "summary": "A fun evening where members test their aviation knowledge.",
+    "description": "A fun and competitive evening where members test their aviation knowledge through various quiz formats.",
+    "technologies": ["Kahoot", "Aviation trivia", "Team competition"],
+    "details": {
+      "sections": [
+        {
+          "heading": "Activities",
+          "items": [
+            "Kahoot Challenge",
+            "Guess the Aircraft",
+            "Aviation Trivia",
+            "Airline Logo Quiz",
+            "Airport Codes Challenge"
+          ]
+        },
+        {
+          "heading": "Rewards",
+          "items": [
+            "Small aviation-themed gifts",
+            "Certificates",
+            "Club merchandise"
+          ]
+        }
+      ]
+    },
     "gallery": [],
     "year": "2025–2026"
   },
   {
     "id": "p03",
-    "slug": "model-rocket",
-    "title": "Model Rocket Program",
+    "slug": "space-movie-night",
+    "title": "Space Movie Night",
     "department": "Aerospace",
     "status": "In progress",
-    "progress": 40,
-    "summary": "Solid-motor model rockets with onboard altimetry and recovery systems.",
-    "description": "The Aerospace Department's stepping stone to bigger launches: a series of model rockets with parachute recovery and onboard flight computers logging altitude and acceleration. Each iteration flies higher and carries more instrumentation.",
-    "technologies": ["OpenRocket", "Arduino flight computer", "3D printing", "Parachute recovery"],
+    "progress": 100,
+    "summary": "Discover the wonders of space through iconic movies and documentaries, followed by engaging discussions about astronomy, space exploration, and future technologies.",
+    "description": "Discover the wonders of space through iconic movies and documentaries, followed by engaging discussions about astronomy, space exploration, and future technologies.",
+    "technologies": ["Space films", "Documentaries", "Group discussion"],
+    "details": {
+      "sections": [
+        {
+          "heading": "Recommended Movies",
+          "items": [
+            "🚀 Dune",
+            "⭐ Guardians of the Galaxy",
+            "🌍 Long Distance",
+            "⚔ Rogue One",
+            "🤖 Atlas"
+          ]
+        },
+        {
+          "heading": "Discussion Topics",
+          "items": [
+            "Space exploration",
+            "Future technologies",
+            "Human survival in space",
+            "AI in space missions",
+            "Astronomy concepts"
+          ]
+        }
+      ]
+    },
     "gallery": [],
     "year": "2025–2026"
   },
   {
     "id": "p04",
-    "slug": "cubesat-concept",
-    "title": "CubeSat Concept Study",
+    "slug": "space-games",
+    "title": "Space Games",
     "department": "Aerospace",
-    "status": "Planned",
-    "progress": 15,
-    "summary": "A 1U CubeSat feasibility study focused on Earth observation for Morocco.",
-    "description": "A student-led feasibility study for a 1U CubeSat mission: mission definition, subsystem budgets (power, link, mass), and an Earth-observation payload concept relevant to Morocco. The study prepares the club for national and international CanSat/CubeSat competitions.",
-    "technologies": ["Systems engineering", "MATLAB", "Link & power budgets", "Earth observation"],
+    "status": "In progress",
+    "progress": 100,
+    "summary": "Learn while having fun with interactive space-themed games, quizzes, challenges, and simulations designed to explore astronomy and space exploration in an engaging way.",
+    "description": "Learn while having fun with interactive space-themed games, quizzes, challenges, and simulations designed to explore astronomy and space exploration in an engaging way.",
+    "technologies": ["Oolite Starter", "Strike Suit Zero", "Star Conflict", "Space Engine"],
+    "details": {
+      "sections": [
+        {
+          "heading": "Games",
+          "items": [
+            "Oolite Starter",
+            "Strike Suit Zero",
+            "Star Conflict",
+            "Space Engine"
+          ]
+        },
+        {
+          "heading": "Club Activities",
+          "items": [
+            "Space Quiz",
+            "Kahoot",
+            "Guess the Planet",
+            "Space Trivia",
+            "Team Challenges"
+          ]
+        }
+      ]
+    },
     "gallery": [],
-    "year": "2026"
+    "year": "2025–2026"
   },
   {
     "id": "p05",
-    "slug": "flight-simulation",
-    "title": "Flight Simulation Corner",
+    "slug": "flight-simulation-session",
+    "title": "Flight Simulation Session",
     "department": "Aeronautics",
-    "status": "Completed",
+    "status": "In progress",
     "progress": 100,
-    "summary": "A fixed simulator setup where members learn real flight procedures.",
-    "description": "A permanent flight-simulation setup with yoke, throttle quadrant and rudder pedals. Used for initiation sessions during integration week and for regular 'virtual airline' evenings where members fly real procedures on real routes.",
-    "technologies": ["Microsoft Flight Simulator", "X-Plane", "Home cockpit hardware"],
+    "summary": "Discover the basics of flying using accessible simulators.",
+    "description": "Hands-on sessions where members discover the basics of flying using accessible and free flight simulators.",
+    "technologies": ["GeoFS", "FlightGear", "Microsoft Flight Simulator"],
+    "details": {
+      "sections": [
+        {
+          "heading": "Software",
+          "items": [
+            "GeoFS",
+            "FlightGear",
+            "Microsoft Flight Simulator"
+          ]
+        },
+        {
+          "heading": "Learn",
+          "items": [
+            "Basic controls",
+            "Takeoff",
+            "Landing",
+            "Navigation",
+            "Airport procedures"
+          ]
+        }
+      ]
+    },
     "gallery": [],
-    "year": "2025"
+    "year": "2025–2026"
   },
   {
     "id": "p06",

@@ -80,16 +80,6 @@ export default function Hero() {
           Exploring the sky <span className="text-accent-100">and beyond.</span>
         </motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.4 }}
-          className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/85 md:text-lg"
-        >
-          We design aircraft, build drones and train on real flight procedures. {SITE.abbr} is where
-          the engineers who will build what flies next take off — starting on campus.
-        </motion.p>
-
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

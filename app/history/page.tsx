@@ -5,7 +5,7 @@ import { getHistory } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "History",
-  description: "The flight log of Club Aero Centrale Casablanca (CACC): founding, boards, achievements and flagship events.",
+  description: "The flight log of Centrale Aero Club (CAC): founding, boards, achievements and flagship events.",
 };
 
 export default function HistoryPage() {

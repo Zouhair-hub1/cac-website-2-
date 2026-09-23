@@ -8,7 +8,7 @@ import { getFaq } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Join Us",
-  description: "Apply to join Club Aero Centrale Casablanca (CACC) — no prior aerospace experience required.",
+  description: "Apply to join Centrale Aero Club (CAC) — no prior aerospace experience required.",
 };
 
 export default function JoinPage() {

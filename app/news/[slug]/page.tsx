@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, CalendarDays, UserRound } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
-import SkyLayer from "@/components/effects/SkyLayer";
+import ArticleHero from "@/components/ui/ArticleHero";
 import { getArticles } from "@/lib/data";
 import { formatDate } from "@/lib/format";
 
@@ -24,21 +24,7 @@ export default function ArticlePage({ params }: Props) {
 
   return (
     <>
-      <section className="relative overflow-hidden bg-hero-gradient pb-14 pt-36 text-white md:pt-44">
-        <SkyLayer tone="day" />
-        <div className="container-site relative">
-          <Reveal>
-            <Link href="/news" className="mb-6 inline-flex items-center gap-1.5 text-sm text-accent-300 hover:text-accent-200">
-              <ArrowLeft size={15} /> All news
-            </Link>
-            <h1 className="h-display max-w-3xl">{article.title}</h1>
-            <div className="mt-5 flex flex-wrap items-center gap-5 text-sm text-white/80">
-              <span className="inline-flex items-center gap-1.5"><CalendarDays size={14} className="text-accent-400" />{formatDate(article.date)}</span>
-              <span className="inline-flex items-center gap-1.5"><UserRound size={14} className="text-accent-400" />{article.author}</span>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      <ArticleHero title={article.title} date={article.date} author={article.author} />
 
       <article className="section container-site">
         <div className="mx-auto max-w-2xl space-y-6">

@@ -17,6 +17,11 @@ export interface Member {
   isHead?: boolean;
 }
 
+export interface ProjectDetailsSection {
+  heading: string;
+  items: string[];
+}
+
 export interface Project {
   id: string;
   slug: string;
@@ -29,6 +34,9 @@ export interface Project {
   technologies: string[];
   gallery: string[];
   year: string;
+  details?: {
+    sections: ProjectDetailsSection[];
+  };
 }
 
 export interface ClubEvent {

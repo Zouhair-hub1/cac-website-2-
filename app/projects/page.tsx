@@ -5,7 +5,7 @@ import { getProjects } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Current and past projects of Club Aero Centrale Casablanca (CACC): drones, RC aircraft, rockets, CubeSat, flight simulation and workshops.",
+  description: "Current and past projects of Centrale Aero Club (CAC): drones, RC aircraft, rockets, CubeSat, flight simulation and workshops.",
 };
 
 export default function ProjectsPage() {

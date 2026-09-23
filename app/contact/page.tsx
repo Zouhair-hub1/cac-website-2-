@@ -8,7 +8,7 @@ import { getContacts, getSettings } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with Club Aero Centrale Casablanca (CACC).",
+  description: "Get in touch with Centrale Aero Club (CAC).",
 };
 
 export default function ContactPage() {
@@ -33,7 +33,7 @@ export default function ContactPage() {
                 <Mail size={19} />
               </span>
               <h3 className="mt-4 font-display text-base font-semibold">General inquiries</h3>
-              <p className="mt-1 text-xs uppercase tracking-widest text-accent-400">Club Aero Centrale Casablanca</p>
+              <p className="mt-1 text-xs uppercase tracking-widest text-accent-400">Centrale Aero Club</p>
               <a href={`mailto:${s.email}`} className="mt-4 block break-all text-sm text-muted transition-colors hover:text-accent-400">
                 {s.email}
               </a>

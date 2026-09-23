@@ -3,14 +3,14 @@
     "slug": "aeronautics",
     "name": "Aeronautics Department",
     "tagline": "Everything that flies within the atmosphere.",
-    "description": "The Aeronautics Department designs, builds and flies. From fixed-wing RC aircraft to multirotor drones and flight simulation rigs, the team turns aerodynamics, structures and avionics theory into hardware that actually leaves the ground. Members learn CAD, composite building techniques, propulsion sizing and flight testing through hands-on projects and workshops.",
-    "focusAreas": ["RC aircraft design & build", "Drones & multirotors", "Flight simulation", "Aerodynamics & CFD", "Avionics & control systems"]
+    "description": "The Aeronautics Department introduces students to aviation through accessible and engaging activities. Members discover aircraft design, aerodynamics, flight operations and aviation technologies through workshops, conferences, documentaries and interactive learning experiences.",
+    "focusAreas": ["Aviation fundamentals", "Aircraft & flight principles", "Flight simulation", "Aviation history & innovation", "Interactive workshops & quizzes"]
   },
   {
     "slug": "aerospace",
     "name": "Aerospace Department",
     "tagline": "From the edge of the atmosphere to orbit.",
-    "description": "The Aerospace Department looks beyond the sky. The team works on model rocketry, CubeSat concepts, orbital mechanics and space engineering, and runs the club's astronomy program with our own telescope. It is the home of Space Day, our flagship event dedicated to AI, Earth observation and space engineering.",
-    "focusAreas": ["Model rocketry", "CubeSat & satellite concepts", "Orbital mechanics", "Earth observation & AI", "Astronomy nights"]
+    "description": "The Aerospace Department looks beyond the sky. The Aerospace Department introduces students to astronomy and space exploration through observation nights with the club telescope, Space Day, conferences, documentaries, educational games and interactive workshops. Members discover space science in an accessible and engaging way while sharing their passion for the universe.",
+    "focusAreas": ["Astronomy & Stargazing", "Telescope Observation", "Space Exploration", "Space Technologies", "Space Movies & Conferences"]
   }
 ]

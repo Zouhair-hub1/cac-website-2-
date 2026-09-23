@@ -4,8 +4,8 @@ import Reveal from "@/components/ui/Reveal";
 const STATS = [
   { value: 24, suffix: "", label: "Bureau members" },
   { value: 2, suffix: "", label: "Technical departments" },
-  { value: 6, suffix: "+", label: "Active projects" },
-  { value: 10, suffix: "+", label: "Events per year" },
+  { value: 4, suffix: "+", label: "Projects planned" },
+  { value: 5, suffix: "+", label: "Events per year" },
 ];
 
 /** Animated statistics strip under the hero. */

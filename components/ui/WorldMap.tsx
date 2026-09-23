@@ -10,7 +10,7 @@ type Hub = { id: string; name: string; detail: string; x: number; y: number };
  * Hover / focus a pulse to reveal the company hub.
  */
 const HUBS: Hub[] = [
-  { id: "casa", name: "Casablanca — Home base", detail: "CACC — Club Aero Centrale Casablanca · Safran · Royal Air Maroc · ONDA", x: 46.2, y: 19.5 },
+  { id: "casa", name: "Casablanca — Home base", detail: "CAC — Centrale Aero Club · Safran · Royal Air Maroc · ONDA", x: 46.2, y: 19.5 },
   { id: "toulouse", name: "Toulouse", detail: "Airbus headquarters & final assembly", x: 48.5, y: 14.2 },
   { id: "paris", name: "Paris", detail: "Safran · Thales · Dassault", x: 48.9, y: 12.8 },
   { id: "seattle", name: "Seattle", detail: "Boeing commercial airplanes", x: 15.5, y: 12.9 },

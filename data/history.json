@@ -1,5 +1,5 @@
 [
-  { "id": "h01", "year": "2019", "title": "The club takes off", "description": "A group of aerospace-passionate Centrale Casablanca students founds Club Aero Centrale Casablanca (CACC) to bring aviation and space closer to campus life.", "kind": "founding" },
+  { "id": "h01", "year": "2019", "title": "The club takes off", "description": "A group of aerospace-passionate Centrale Casablanca students founds Centrale Aero Club (CAC) to bring aviation and space closer to campus life.", "kind": "founding" },
   { "id": "h02", "year": "2021", "title": "First technical departments", "description": "The club structures itself into two technical departments — Aeronautics and Aerospace — each running its own projects and workshops.", "kind": "board" },
   { "id": "h03", "year": "2023", "title": "First flight-simulation corner", "description": "The club sets up a permanent flight-simulation station, opening real flight procedures to every student on campus.", "kind": "achievement" },
   { "id": "h04", "year": "2024", "title": "The telescope arrives", "description": "The club acquires its own telescope and launches regular astronomy nights, turning the campus rooftop into an observatory.", "kind": "achievement" },

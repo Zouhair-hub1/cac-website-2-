@@ -9,7 +9,7 @@ import { getPartners } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Partners",
-  description: "The institutions and aerospace companies supporting Club Aero Centrale Casablanca (CACC).",
+  description: "The institutions and aerospace companies supporting Centrale Aero Club (CAC).",
 };
 
 export default function PartnersPage() {

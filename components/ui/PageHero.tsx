@@ -1,13 +1,24 @@
+"use client";
+
 import SkyLayer from "@/components/effects/SkyLayer";
+import StarField from "@/components/effects/StarField";
+import { useTheme } from "@/components/layout/ThemeProvider";
 import Reveal from "./Reveal";
 
 type Props = { eyebrow: string; title: string; lead?: string };
 
-/** Compact daytime-sky hero used on interior pages. */
+/** Compact hero used on interior pages — adapts to day/night theme. */
 export default function PageHero({ eyebrow, title, lead }: Props) {
+  const { theme } = useTheme();
+  const isNight = theme === "dark";
+
   return (
-    <section className="relative overflow-hidden bg-hero-gradient pb-16 pt-36 text-white md:pb-24 md:pt-44">
-      <SkyLayer tone="day" />
+    <section
+      className={`relative overflow-hidden pb-16 pt-36 text-white transition-colors duration-700 md:pb-24 md:pt-44 ${
+        isNight ? "bg-night-gradient" : "bg-hero-gradient"
+      }`}
+    >
+      {isNight ? <StarField count={60} /> : <SkyLayer tone="day" />}
       <div className="container-site relative">
         <Reveal>
           <p className="eyebrow !text-white/90">{eyebrow}</p>

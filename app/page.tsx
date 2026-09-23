@@ -57,7 +57,7 @@ export default function HomePage() {
               icon: Plane,
               title: "Aeronautics",
               href: "/departments/aeronautics",
-              text: "RC aircraft, drones, flight simulation and everything aerodynamic. Design it, build it, fly it.",
+              text: "Discover aviation through interactive workshops, aviation games, documentaries and industry talks.",
             },
             {
               icon: Orbit,

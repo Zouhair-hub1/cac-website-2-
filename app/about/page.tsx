@@ -23,7 +23,7 @@ export default function AboutPage() {
 
         eyebrow="About us"
         title="A student club run like an aviation company."
-        lead="Club Aero Centrale Casablanca (CACC) is the aeronautical engineering association of École Centrale Casablanca — aviation first, space always on the horizon. A place where students turn a fascination with flight into projects, events and careers."
+        lead="Centrale Aero Club (CAC) is the aeronautical engineering association of École Centrale Casablanca — aviation first, space always on the horizon. A place where students turn a fascination with flight into projects, events and careers."
       />
 
       {/* Presentation */}

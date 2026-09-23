@@ -7,7 +7,7 @@ import type { Member } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "Executive Board",
-  description: "Meet the 2026 bureau of Club Aero Centrale Casablanca (CACC).",
+  description: "Meet the 2026 bureau of Centrale Aero Club (CAC).",
 };
 
 const GROUPS: { team: Member["team"]; title: string; lead: string }[] = [
@@ -29,7 +29,7 @@ export default function BoardPage() {
 
         eyebrow="The crew · 2026 mandate"
         title="Meet the Executive Board."
-        lead="Twenty-four members across seven teams keep Club Aero Centrale Casablanca (CACC) flying — from strategy and sponsoring to the workbenches of both departments."
+        lead="Twenty-four members across seven teams keep Centrale Aero Club (CAC) flying — from strategy and sponsoring to the workbenches of both departments."
       />
 
       {GROUPS.map((g, gi) => {
