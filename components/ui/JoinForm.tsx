@@ -3,27 +3,60 @@
 import { useState } from "react";
 import { CheckCircle2, Send } from "lucide-react";
 
-/**
- * Application form. Front-end only for now — connect `submit`
- * to a Google Form, Formspree endpoint or your own API when ready.
- */
+const FORMSPREE_ID = "mgavydgr";
+
 export default function JoinForm() {
   const [form, setForm] = useState({ name: "", email: "", promotion: "", department: "", motivation: "" });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [sent, setSent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [serverError, setServerError] = useState("");
 
-  const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) =>
-    setForm((f) => ({ ...f, [k]: e.target.value }));
+  const set = (k: keyof typeof form) =>
+    (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) =>
+      setForm((f) => ({ ...f, [k]: e.target.value }));
 
-  const submit = () => {
+  const validate = () => {
     const errs: Record<string, string> = {};
     if (!form.name.trim()) errs.name = "Your name is required.";
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(form.email)) errs.email = "Enter a valid email address.";
     if (!form.promotion) errs.promotion = "Select your promotion.";
     if (!form.department) errs.department = "Choose a department.";
     if (form.motivation.trim().length < 30) errs.motivation = "Tell us a bit more — at least a few sentences.";
+    return errs;
+  };
+
+  const submit = async () => {
+    const errs = validate();
     setErrors(errs);
-    if (Object.keys(errs).length === 0) setSent(true);
+    if (Object.keys(errs).length > 0) return;
+
+    setSubmitting(true);
+    setServerError("");
+
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          promotion: form.promotion,
+          department: form.department,
+          motivation: form.motivation,
+        }),
+      });
+
+      if (res.ok) {
+        setSent(true);
+      } else {
+        setServerError("Something went wrong. Please try again or contact us directly.");
+      }
+    } catch {
+      setServerError("Network error. Please check your connection and try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   if (sent)
@@ -50,7 +83,7 @@ export default function JoinForm() {
       {field("Full name", "name",
         <input id="name" className="input" placeholder="Amina El Fassi" value={form.name} onChange={set("name")} />)}
       {field("Email", "email",
-        <input id="email" type="email" className="input" placeholder="you@accent-casablanca.ma" value={form.email} onChange={set("email")} />)}
+        <input id="email" type="email" className="input" placeholder="you@centrale-casablanca.ma" value={form.email} onChange={set("email")} />)}
       <div className="grid gap-5 sm:grid-cols-2">
         {field("Promotion", "promotion",
           <select id="promotion" className="input" value={form.promotion} onChange={set("promotion")}>
@@ -64,14 +97,17 @@ export default function JoinForm() {
             <option value="Aerospace">Aerospace</option>
             <option value="Events">Events</option>
             <option value="Sponsoring">Sponsoring</option>
-            <option value="Communication">Communication</option>
-            <option value="Design">Design</option>
+            <option value="Communication & Design">Communication & Design</option>
+            <option value="IT">IT</option>
           </select>)}
       </div>
       {field("Motivation", "motivation",
         <textarea id="motivation" rows={5} className="input resize-none" placeholder="What draws you to the sky — and what would you like to build with us?" value={form.motivation} onChange={set("motivation")} />)}
-      <button onClick={submit} className="btn-primary w-full">
-        Send application <Send size={15} />
+
+      {serverError && <p className="text-xs text-rose-400">{serverError}</p>}
+
+      <button onClick={submit} disabled={submitting} className="btn-primary w-full disabled:opacity-60">
+        {submitting ? "Sending…" : <><Send size={15} /> Send application</>}
       </button>
     </div>
   );
