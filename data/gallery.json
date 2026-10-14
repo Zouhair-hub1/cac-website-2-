@@ -54,5 +54,33 @@
     "alt": "Space x Aero Day",
     "category": "Competitions",
     "ratio": "landscape"
+  },
+  {
+    "id": "g09",
+    "src": "/images/stargazing-night-poster.jpg",
+    "alt": "Stargazing Night — A night under the stars",
+    "category": "Workshops",
+    "ratio": "portrait"
+  },
+  {
+    "id": "g10",
+    "src": "/images/stargazing-night-group.jpg",
+    "alt": "CAC members at Stargazing Night with telescope",
+    "category": "Workshops",
+    "ratio": "landscape"
+  },
+  {
+    "id": "g11",
+    "src": "/images/marrakech-airshow-2026-ceremony.jpg",
+    "alt": "CAC members receiving certificates at Marrakech Airshow 2026",
+    "category": "Visits",
+    "ratio": "landscape"
+  },
+  {
+    "id": "g12",
+    "src": "/images/marrakech-airshow-2026-entrance.jpg",
+    "alt": "CAC members at Marrakech Airshow 2026 accreditation entrance",
+    "category": "Visits",
+    "ratio": "landscape"
   }
 ]
